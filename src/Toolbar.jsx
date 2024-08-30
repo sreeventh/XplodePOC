@@ -27,17 +27,17 @@ const FuturisticToolbar = (props) => {
   // List of available HDRI files
   const hdriFiles = [
     { name: "Sunset", path: "default" },
-    { name: "CyberPunk", path: "./assets/cyberpunk-urban-scenery.hdr" },
-    { name: "Warehouse 4K", path: "./assets/warehouse.hdr" },
-    { name: "Workshop", path: "../assets/workshop.hdr" },
-    { name: "Office", path: "./assets/office.hdr" },
-    { name: "Roof Top", path: "./assets/roof.hdr" },
-    { name: "Aurora", path: "./assets/aurora.hdr" },
-    { name: "Garage", path: "./assets/garage.hdr" },
-    { name: "Underground", path: "./assets/underground.hdr" },
-    { name: "Car Interior", path: "./assets/car.hdr" },
-    { name: "Clean Warehouse", path: "./assets/clean.hdr" },
-    { name: "Artroom", path: "./assets/art.hdr" },
+    { name: "CyberPunk", path: "src/assets/cyberpunk-urban-scenery.hdr" },
+    { name: "Warehouse 4K", path: "src/assets/warehouse.hdr" },
+    { name: "Workshop", path: "src/assets/workshop.hdr" },
+    { name: "Office", path: "src/assets/office.hdr" },
+    { name: "Roof Top", path: "src/assets/roof.hdr" },
+    { name: "Aurora", path: "src/assets/aurora.hdr" },
+    { name: "Garage", path: "src/assets/garage.hdr" },
+    { name: "Underground", path: "src/assets/underground.hdr" },
+    { name: "Car Interior", path: "src/assets/car.hdr" },
+    { name: "Clean Warehouse", path: "src/assets/clean.hdr" },
+    { name: "Artroom", path: "src/assets/art.hdr" },
   ];
 
   return (
