@@ -29,7 +29,7 @@ const FuturisticToolbar = (props) => {
     { name: "Sunset", path: "default" },
     { name: "CyberPunk", path: "src/assets/cyberpunk-urban-scenery.hdr" },
     { name: "Warehouse 4K", path: "src/assets/warehouse.hdr" },
-    { name: "Workshop", path: "src/assets/workshop.hdr" },
+    { name: "Workshop", path: "./workshop.hdr" },
     { name: "Office", path: "src/assets/office.hdr" },
     { name: "Roof Top", path: "src/assets/roof.hdr" },
     { name: "Aurora", path: "src/assets/aurora.hdr" },
