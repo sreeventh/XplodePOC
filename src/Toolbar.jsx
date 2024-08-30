@@ -47,7 +47,7 @@ const FuturisticToolbar = (props) => {
       <ToolbarButton icon={<FaInfo />} tooltip="View Info" onClick={props.InfOption} />
       <ToolbarButton icon={<FaCog />} tooltip="Settings" onClick={props.SettingsOption} />
       <ToolbarButton icon={<FaRedo />} tooltip="Reset Model" onClick={props.ResetOption} />
-      <div className={styles.backgroundSelector}>
+      {/* <div className={styles.backgroundSelector}>
         <ToolbarButton 
           icon={<>
             <FaBlackTie />
@@ -67,7 +67,7 @@ const FuturisticToolbar = (props) => {
             ))}
           </ul>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

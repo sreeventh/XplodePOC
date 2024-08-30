@@ -77,7 +77,7 @@ function App() {
       <FuturisticToolbar
         cursorOption={cursorSelected}
         TransparentOption={TransparentSelected}
-        BgOption={changeBackground}
+        // BgOption={changeBackground}
         ResetOption={ResetOption}
       />
     </>
