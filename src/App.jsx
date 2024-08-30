@@ -3,7 +3,6 @@ import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
 import Machineplode from "../public/MachinePlode";
-import Garage_model from "../public/Garage";
 import FuturisticToolbar from "./Toolbar";
 
 function App() {
