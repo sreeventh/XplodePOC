@@ -4,7 +4,7 @@ import { useSpring, animated } from "@react-spring/three";
 import * as THREE from "three";
 
 export default function Machineplode({ toggleExplode }) {
-  const { nodes, materials } = useGLTF("./public/machine.gltf");
+  const { nodes, materials } = useGLTF("./machine.gltf");
   const [exploded, setExploded] = useState(false);
   const [transparentParts, setTransparentParts] = useState({});
 
@@ -68,4 +68,4 @@ export default function Machineplode({ toggleExplode }) {
   );
 }
 
-useGLTF.preload("./public/machine.gltf");
+useGLTF.preload("./machine.gltf");
